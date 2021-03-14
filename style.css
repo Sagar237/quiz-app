@@ -1,0 +1,113 @@
+/* importing google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background:grey;
+}
+.about_quiz{
+    /* background-color: red; */
+    position: absolute;
+    margin: 110px 0px 0px 50px;
+}
+.about_quiz h1{
+    color: rgb(206, 32, 32)
+}
+.about_quiz .info{
+   color: white;
+   font-size: 25px;
+}
+
+.levels{
+    float: right;
+    margin: 120px 20px 0px 0px;
+}
+.levels h1{
+    color: rgb(146, 31, 23);
+    margin-right: 20px;
+}
+.levels button{
+    width: 266px;
+    height: 65px;
+    font-size: 25px;
+    font-weight: 450;
+    color: white;
+    padding: 15px 30px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: rgb(19, 150, 62);
+    cursor: pointer;
+    margin: 10px 200px 20px 40px;
+}
+
+
+.quiz_header .timer{
+    color: #004085;
+    background: #cce5ff;
+    border: 1px solid #b8daff;
+    height: 45px;
+    padding: 0 8px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 145px;
+    margin-right: 15px;
+    margin-top: 7px;
+}
+
+.quiz_header .timer .time_left_txt{
+    font-weight: 400;
+    font-size: 17px;
+    user-select: none;
+}
+
+.quiz_header .timer .timer_sec{
+    font-size: 18px;
+    font-weight: 500;
+    height: 30px;
+    width: 45px;
+    color: #fff;
+    border-radius: 5px;
+    line-height: 30px;
+    text-align: center;
+    background: #343a40;
+    border: 1px solid #343a40;
+    user-select: none;
+}
+.result_box h1 {
+    color: limegreen;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.result_box .buttons{
+    text-align: center;
+}
+.icon{
+    font-size: 200px;
+    text-align: center;
+    color: green;
+    margin-top: 60px;
+}
+.buttons .start{
+    width: 266px;
+    height: 65px;
+    font-size: 25px;
+    font-weight: 450;
+    color: #007bff;
+    padding: 15px 30px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: #fff;
+    cursor: pointer;
+    border-radius: 14px;
+    margin-top: 60px;
+}
